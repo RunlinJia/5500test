@@ -17,6 +17,6 @@ public class UserServiceTest {
     public void test1() {
         User user2= new User();
         user2.setUsername("john2");
-        assertEquals("john2", user2.getUsername());
+        assertEquals("john1", user2.getUsername());
     }
 }
